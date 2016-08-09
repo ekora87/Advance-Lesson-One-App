@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My First Express App</title>
+    </head>
+    <body>
+      <img src = "<%= avatar %>">
+      <h2>Hi! My name is <%= name %>. I live in <%= location %> and am a <%= job %>.</h2>
+      <h4>My skills are:</h4>
+      <ul>
+        <% skills.forEach(function(skills) { %>
+          <li> <%= skills %> </li>
+          <% }); %>
+      </ul>
+      <h4>My hobbies are:</h4>
+      <ul>
+          <% hobbies.forEach(function(hobbies){ %>
+            <li> <%= hobbies %> </li>
+            <% }); %>
+      </ul>
+</body>
+</html>

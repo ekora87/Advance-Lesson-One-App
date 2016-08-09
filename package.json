@@ -1,0 +1,20 @@
+{
+  "name": "lesson-one-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "gh-avatar": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.0"
+  }
+}
